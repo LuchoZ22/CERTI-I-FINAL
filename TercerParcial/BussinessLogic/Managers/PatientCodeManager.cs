@@ -1,24 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Configuration;
-using Microsoft.Extensions.Configuration;
-using System.Runtime.InteropServices.JavaScript;
-using System.Text.Json;
-using UPB.BussinessLogic.Models;
+﻿using Microsoft.Extensions.Configuration;
 using Serilog;
+using System.Text.Json;
 using UPB.BussinessLogic.Managers.Exceptions;
-using System.Security.Cryptography.X509Certificates;
+using UPB.BussinessLogic.Models;
 
 namespace UPB.BussinessLogic.Managers
 {
-    public class StudentCodeManager
+    public class PatientCodeManager
     { 
         private readonly IConfiguration _configuration;
 
-        public StudentCodeManager(IConfiguration configuration)
+        public PatientCodeManager(IConfiguration configuration)
         {
             _configuration = configuration;
         }
@@ -71,7 +63,7 @@ namespace UPB.BussinessLogic.Managers
             }
         }
 
-
+        // Gets the code from a backing service api and then rewrites de info
         public async Task<string> GetPatientCodeAsync(string ci)
         {
             Log.Information($"CI: {ci}");

@@ -12,7 +12,7 @@ namespace UPB.BussinessLogic.Models
         public string name { get;  set; }
         public string lastName { get;  set; }   
         public string bloodType {  get;  set; }
+        public string code { get; set; }
 
-        
     }
 }

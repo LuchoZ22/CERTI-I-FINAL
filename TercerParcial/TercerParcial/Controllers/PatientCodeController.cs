@@ -10,10 +10,10 @@ namespace TercerParcial.Controllers
     public class PatientCodeController : ControllerBase
     {
 
-        private StudentCodeManager _studentCodeManager;
+        private PatientCodeManager _studentCodeManager;
 
 
-        public PatientCodeController(StudentCodeManager s)
+        public PatientCodeController(PatientCodeManager s)
         {
             _studentCodeManager = s;
         }

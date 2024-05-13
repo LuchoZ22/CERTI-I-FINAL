@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient<StudentCodeManager>();
+builder.Services.AddTransient<PatientCodeManager>();
 
 
 Log.Logger = new LoggerConfiguration()
