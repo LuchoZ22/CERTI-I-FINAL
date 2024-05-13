@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TercerParcial", "TercerParcial\TercerParcial.csproj", "{6E9C807F-643E-414D-9027-9C10C8F0EE77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLogic", "BussinessLogic\BussinessLogic.csproj", "{6E0D0904-8ED6-4F98-B07A-D142CD6E9BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9C807F-643E-414D-9027-9C10C8F0EE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9C807F-643E-414D-9027-9C10C8F0EE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9C807F-643E-414D-9027-9C10C8F0EE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9C807F-643E-414D-9027-9C10C8F0EE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0D0904-8ED6-4F98-B07A-D142CD6E9BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0D0904-8ED6-4F98-B07A-D142CD6E9BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0D0904-8ED6-4F98-B07A-D142CD6E9BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0D0904-8ED6-4F98-B07A-D142CD6E9BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53718899-9562-4AB2-AE71-BBFCF8ABE045}
+	EndGlobalSection
+EndGlobal
